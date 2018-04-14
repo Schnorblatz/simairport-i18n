@@ -112,7 +112,7 @@
     </Agents>
     <Objects>
         <generic>
-            <AircraftGate>Porte d'avion</AircraftGate>
+            <AircraftGate>Porte d'embarquement</AircraftGate>
             <ConveyorTransition>Transition de convoyeur</ConveyorTransition>
             <Stairs>Escalier</Stairs>
             <Escalator>Escalier mécanique</Escalator>
@@ -142,15 +142,15 @@
             <description>Raccord pouvant être placé au niveau des portes et relié à des conduites souterraines pour accélérer le ravitaillement en carburant.</description>
         </FuelPort>
         <AircraftGateSmall>
-            <name>Porte d'avion (S)</name>
+            <name>Porte d'embarquement (S)</name>
             <description>Permet aux avions de charger et décharger les voyageurs.</description>
         </AircraftGateSmall>
         <AircraftGate>
-            <name>Porte d'avion (L)</name>
+            <name>Porte d'embarquement (L)</name>
             <description>Permet aux avions de charger et décharger les voyageurs.</description>
         </AircraftGate>
         <AircraftGateLarge>
-            <name>Porte d'avion (XL)</name>
+            <name>Porte d'embarquement (XL)</name>
             <description>Permet aux avions de charger et décharger les voyageurs.</description>
         </AircraftGateLarge>
         <ApparelStand>
@@ -178,7 +178,7 @@
             <description />
         </Bar-Large>
         <Bar-Small>
-            <name>Bar - Moyen</name>
+            <name>Bar - Petit</name>
             <description />
         </Bar-Small>
         <Bench>
@@ -334,7 +334,7 @@
             <description>Le personnel des points de vente utilise cette machine pour servir des sodas.  Les voyageurs assoiffés aiment les sodas.  Vous gagnez aussi de l'argent à chaque transaction !</description>
         </DrinkMachine>
         <Dumpster>
-            <name>Poubelle</name>
+            <name>Benne à ordures</name>
             <description>Aide à garder les déchets sous contrôle en augmentant la capacité de votre espace de déchetterie.</description>
         </Dumpster>
         <ElectronicsVending>
@@ -414,7 +414,7 @@
             <description>Porte vitrée coulissante automatique de type commercial.  Assez grande pour permettre à plusieurs personnes de passer en même temps.</description>
         </LargeSlidingDoor>
         <LRTPlatform>
-            <name>Plate-forme du TLR</name>
+            <name>Plate-forme du VAL</name>
             <description>Permet d'offrir un service de train léger jusqu'à votre aéroport et créée une liaison avec les stations de métro.</description>
         </LRTPlatform>
         <MediumHangar>
@@ -617,11 +617,11 @@
             <description>Un escalier qui, lorsqu'il est placé sur l'étage actuel, permet à vos passagers de se déplacer vers et depuis l'étage inférieur.</description>
         </StairsDown>
         <EscalatorUp>
-            <name>Escalator Up</name>
+            <name>Escalator Montant</name>
             <description>Un escalator électronique qui permet à vos passagers de voyager à partir du sol, il est placé sur le sol directement au-dessus. Ne permet que le voyage dans une direction.</description>
         </EscalatorUp>
         <EscalatorDown>
-            <name>Escalator Down</name>
+            <name>Escalator Descendant</name>
             <description>Un escalator électronique qui permet à vos passagers de voyager à partir du sol, il est placé sur le sol directement ci-dessous. Ne permet que le voyage dans une direction.</description>
         </EscalatorDown>
         <ConveyorDown>
@@ -629,7 +629,7 @@
             <description>Objet de réseau de convoyeur qui permet à un segment de convoyeur de passer de l'étage sur lequel il est placé, à l'étage situé directement en dessous. Permet des utilisations stratégiques de l'espace lors de la conception de réseaux de convoyeurs de bagages.</description>
         </ConveyorDown>
         <ConveyorUp>
-            <name>Convoyeur Up Transition</name>
+            <name>Transition vers le haut du convoyeur</name>
             <description>Objet de réseau de convoyeur qui permet à un segment de convoyeur de passer de l'étage sur lequel il est placé à l'étage situé directement en dessous. Permet des utilisations stratégiques de l'espace lors de la conception de réseaux de convoyeurs de bagages.</description>
         </ConveyorUp>
         <SmallGateStairs>
@@ -637,7 +637,7 @@
             <description>Ajoute des escaliers à votre petit porte d'avion, et le rend accessible exclusivement à partir du deuxième étage.</description>
         </SmallGateStairs>
         <MovingWalkway>
-            <name>Passerelle</name>
+            <name>Tapis roulant</name>
             <description>Donne aux passagers un moyen plus rapide de parcourir de longues distances.</description>
         </MovingWalkway>
     </Objects>
