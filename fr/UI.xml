@@ -479,7 +479,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                             <description>- Se débarrasser de tout ce qui se trouve dans la zone</description>
                         </Garbage>
                         <LightRail>
-                            <title>Train léger</title>
+                            <title>VAL</title>
                             <description>- capacité x {0}</description>
                         </LightRail>
                     </rows>
@@ -1090,7 +1090,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <BlockMarkerSelf>Inutilisable dans cette position</BlockMarkerSelf>
             <FaceRoad>Doit être placé face à une voie de circulation ou une route</FaceRoad>
             <BlockQueue>Bloqué par la file d'attente</BlockQueue>
-            <LRT>Doit être placé à gauche des rails du train léger (hors de la map)</LRT>
+            <LRT>Doit être placé à gauche des rails du VAL (hors de la map)</LRT>
             <OnOtherObject>Doit être placé sur {0}</OnOtherObject>
             <BlockedBy>Bloqué par {0}</BlockedBy>
             <ReqTouchOutdoors>Doit être proche de l'extérieur</ReqTouchOutdoors>
@@ -1141,7 +1141,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ConnectsToMax>Se connecte à un maximum de {0} porte(s)</ConnectsToMax>
             <ConnectsToMax2>Se connecte à un maximum de {0} haut-parleur(s)</ConnectsToMax2>
             <PA>Couverture de sortie bidirectionnelle</PA>
-            <LRT>Doit être placé sur le côté gauche des rails du train léger</LRT>
+            <LRT>Doit être placé sur le côté gauche des rails du VAL</LRT>
             <RequiresStaff>Nécessite un opérateur</RequiresStaff>
             <Limit>Limite {0}</Limit>
             <NoDestroy>Impossible à détruire</NoDestroy>
@@ -1245,7 +1245,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <IncomeTax>Impôt sur le revenu</IncomeTax>
             <PropertyTaxImprovements>Impôts fonciers - Optimisations foncières ({0} dalles améliorées)</PropertyTaxImprovements>
             <PropertyTaxLand>Impôts fonciers - Valeur du terrain ({0} dalles totales)</PropertyTaxLand>
-            <LightRailService>Service de train léger</LightRailService>
+            <LightRailService>Service de VAL</LightRailService>
             <RefuelService>Services de réapprovisionnement</RefuelService>
             <RetailService>Service de vente au détail</RetailService>
             <BusService>Service de bus</BusService>
@@ -1525,9 +1525,9 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <description>Les portes d'attente peuvent être utilisées pour améliorer les opérations aéroportuaires en réduisant le nombre de vols annulés ou retardés.</description>
         </StandbyGates>
         <Lightrail>
-            <name>Transport par train léger</name>
-            <row0>Permet de placer une plate-forme de train léger sur la map.</row0>
-            <description>Le train léger réduit l'encombrement du trafic en offrant aux passagers un moyen pratique d'accéder à votre aéroport et de le quitter.</description>
+            <name>Transport par VAL</name>
+            <row0>Permet de placer une plate-forme de VAL sur la map.</row0>
+            <description>Le VAL réduit l'encombrement du trafic en offrant aux passagers un moyen pratique d'accéder à votre aéroport et de le quitter.</description>
         </Lightrail>
         <LandExpansion>
             <name>Agrandissement de terrain</name>
@@ -1535,7 +1535,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         </LandExpansion>
         <Operations2>
             <name>Opérations II</name>
-            <row0>Permet de gérer les services d'autobus, de ramassage des ordures, de vente au détail et de train léger par l'intermédiaire du panneau de contrôle des opérations.</row0>
+            <row0>Permet de gérer les services d'autobus, de ramassage des ordures, de vente au détail et du VAL par l'intermédiaire du panneau de contrôle des opérations.</row0>
         </Operations2>
         <AviationOps>
             <name>Opérations aériennes</name>
@@ -1546,8 +1546,8 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <row0>Capacité à recruter un directeur technique.</row0>
         </Technology>
         <LongerTrains>
-            <name>Trains légers plus longs</name>
-            <row0>Transformez votre train léger en un train de 4 wagons, d'une capacité maximale de 250 places !</row0>
+            <name>VAL plus longs</name>
+            <row0>Transformez votre VAL en un train de 4 wagons, d'une capacité maximale de 250 places !</row0>
         </LongerTrains>
         <FuelPorts>
             <name>Points d'approvisionnement en carburant</name>
